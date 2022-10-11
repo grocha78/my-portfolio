@@ -1,13 +1,222 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: didot,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+* {
+  background-color: var(--color-four);
+  color: var(--color-five);
+}
+
+#main {
+  margin-top: 230px;
+  margin-bottom: 130px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* header */
+#header {
+  background-color: var(--color-three);
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#header h1 {
+  background-color: var(--color-three);
+}
+
+#header nav {
+  background-color: var(--color-three);
+}
+
+h1 {
+  font-size: 45px;
+  text-shadow: -1px 1px 1px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+button {
+  border: 2px solid var(--color-four);
+  border-radius: 10px;
+  background-color: var(--color-two);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  margin: 5px;
+}
+
+button span {
+  background-color: var(--color-two);
+  font-size: 20px;
+  margin: 3px;
+  color: var(--color-four);
+}
+
+.navActive {
+  background-color: var(--color-four);
+  border: 2px solid var(--color-two);
+}
+
+.navActive span {
+  background-color: var(--color-four);
+  color: var(--color-two);
+}
+
+/* footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background-color: var(--color-three);
+  text-align: center;
+}
+
+#footer p {
+  background-color: var(--color-three);
+  font-size: 20px;
+}
+
+#footer a {
+  background-color: var(--color-three);
+  opacity: 75%;
+}
+
+#footer svg {
+  background-color: var(--color-three);
+}
+
+#footer a:hover {
+  opacity: 100%;
+}
+
+/* about */
+h2 {
+  font-size: 30px;
+}
+
+#selfie {
+  max-height: 200px;
+  margin: 15px;
+  border: 2px solid var(--color-four);
+  border-radius: 10px;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#bio {
+  width: 60%;
+  margin: 15px;
+}
+
+/* projects */
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px
+}
+
+#gallery img {
+  height: 100px;
+  object-fit: cover;
+}
+
+.card {
+  display:flex;
+  flex-direction:column;
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  margin: 10px;
+  border: 2px solid var(--color-four);
+  border-radius: 7px;
+}
+
+.card a {
+  background-color: rgb(56, 141, 187);
+  color: rgb(25, 15, 31);
+  margin: 5px;
+  width: fit-content;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 3px;
+  border: 2px solid var(--color-two);
+}
+
+.card a svg {
+  background-color: rgb(196, 249, 193);
+  color: rgb(28, 82, 26);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+body {
+  height: 100%;
+}
+
+/* contact */
+#contact-form div {
+  margin: 10px;
+}
+
+#contact-form input {
+  margin: 8px;
+  border: 1px solid var(--color-three)
+}
+
+#contact-form textarea {
+  margin: 8px;
+  border: 1px solid var(--color-three)
+}
+
+.error-text {
+  font-weight: bold;
+}
+
+/* resume */
+#download {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }
