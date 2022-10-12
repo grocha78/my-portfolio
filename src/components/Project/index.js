@@ -40,7 +40,7 @@ function Project() {
     ];
     return (
         <div>
-            <h2>My Work</h2>
+            <h2>Work Samples</h2>
             <div className="gallery">
               {projects.map((project) => (
                 <div key={project.name}>
