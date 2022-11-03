@@ -41,7 +41,7 @@ function Project() {
         {
             name:"Nutritional Yeet",
             imgsrc: nutritionalyeet,
-            link: "https://nutritional-yeet-2022.herokuapp.com/",
+            link: "https://young-taiga-34370.herokuapp.com/",
             repo: "https://github.com/ehalimi/Nutritional-Yeet"
         }
     ];
