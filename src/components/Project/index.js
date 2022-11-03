@@ -4,6 +4,7 @@ import artgarage from "../../assets/artgarage.png";
 import techblog from "../../assets/techblog.png";
 import weatherapp from "../../assets/weatherapp.png";
 import perfectday from "../../assets/perfectday.png";
+import nutritionalyeet from "../../assets/nutritionalyeet.png";
 
 function Project() {
     const projects = [
@@ -36,6 +37,12 @@ function Project() {
             imgsrc: perfectday,
             link: "https://grocha78.github.io/Just-Another-Day/",
             repo: "https://github.com/grocha78/Just-Another-Day"
+        },
+        {
+            name:"Nutritional Yeet",
+            imgsrc: nutritionalyeet,
+            link: "https://nutritional-yeet-2022.herokuapp.com/",
+            repo: "https://github.com/ehalimi/Nutritional-Yeet"
         }
     ];
     return (
