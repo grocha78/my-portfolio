@@ -119,12 +119,10 @@ h1 {
 
 .about {
   margin: 20px;
-  justify-content:center;
 }
 
 .bio {
-  width: 60%;
-  margin:auto;
+  width: 100%;
   font-weight: bolder;
   font-size: larger;
 }
@@ -235,6 +233,7 @@ body {
 h3 {
   text-decoration: underline;
   font-size: 22px;
+  
 }
 
 h2 {

@@ -26,7 +26,7 @@ function Resume() {
                 </div>
             </ul>
             <br></br>
-            <a className="download" href="https://docs.google.com/document/d/1bcmAEkx3AjAD-w1trWSTxvAkTTNmeIUI1Lc9_oqQAGo/edit?usp=sharing">Download my resume!</a>
+            <a className="download" href="https://docs.google.com/document/d/1VQnikZZN2RepkJbocWq5T0sVMld3mcjTAEHsZEP6ZyU/edit?usp=sharing">Click here to download my resume!</a>
         </div>
     );
 }
