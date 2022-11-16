@@ -102,7 +102,7 @@ button span {
 }
 
 .footer a:hover {
-  opacity: 100%;
+  opacity: 50%;
 }
 
 /* about */
@@ -177,7 +177,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.card a:hover {
   text-decoration: underline;
 }
 
@@ -219,6 +219,10 @@ body {
   color: black;
 }
 
+p {
+  font-size: 30px;
+}
+
 /* resume */
 .download {
   font-size: 25px;
@@ -238,4 +242,9 @@ h3 {
 
 h2 {
   font-size: 35px;
+}
+
+.resume a:hover {
+  opacity: 50%;
+  text-decoration: underline;
 }
