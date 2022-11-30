@@ -1,34 +1,100 @@
-import React from "react";
-
-function Resume() {
+import React, { Component } from 'react';
+export default  class Resume extends Component {
+  render() {
+    let resumeData = this.props.resumeData;
     return (
-        <div className="resume">
-            <h2>Acquired Skills</h2>
-            <ul>
-                <div>
-                <h3>Front-end Proficiencies</h3>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Jquery</li>
-                <li>Responsive Design</li>
-                <li>React</li>
-                <li>Bootstrap</li>
-                </div>
-                <div>
-                <h3>Back-end Proficiencies</h3>
-                <li>APIs</li>
-                <li>Node</li>
-                <li>Express</li>
-                <li>MySQL, Sequelize</li>
-                <li>MongoDB, Mongoose</li>
-                <li>REST</li>
-                </div>
-            </ul>
-            <br></br>
-            <a className="download" href="https://docs.google.com/document/d/1VQnikZZN2RepkJbocWq5T0sVMld3mcjTAEHsZEP6ZyU/edit?usp=sharing">Click here to download my resume!</a>
-        </div>
-    );
-}
+      <section id="resume">
 
-export default Resume;
+         <div className="row education">
+
+            <div className="three columns header-col">
+               <h1><span>Education</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+              {
+                resumeData.education && resumeData.education.map((item)=>{
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.UniversityName}</h3>
+                          <p className="info">
+                          {item.specialization}
+                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          <p>
+                          {item.Achievements}
+                          </p>
+                       </div>
+                    </div>
+                  )
+                })
+              }
+            </div>
+         </div>
+        <div className="row work">
+            <div className="three columns header-col">
+               <h1><span>Work</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+              {
+                resumeData.work && resumeData.work.map((item) => {
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.CompanyName}</h3>
+                          <p className="info">
+                          {item.specialization}
+                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <p>
+                          {item.Achievements}
+                          </p>
+                       </div>
+
+                    </div>
+
+                  )
+                })
+              }
+            </div> 
+         </div>
+
+
+         <div className="row skill">
+
+            <div className="three columns header-col">
+               <h1><span>Skills</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+
+               <p>
+               {resumeData.skillsDescription}
+               </p>
+
+   				<div className="bars">
+
+   				   <ul className="skills">
+                {
+                  resumeData.skills && resumeData.skills.map((item) => {
+                    return(
+                      <li>
+                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                      </span><em>{item.skillname}</em>
+                      </li>
+                    )
+                  })
+                }
+
+   					</ul>
+
+   				</div>
+
+   			</div>
+
+         </div>
+
+      </section>
+    );
+  }
+}

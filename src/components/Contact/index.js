@@ -1,44 +1,27 @@
-import React from "react";
-
-// import { validateEmail } from "../../utils/helpers";
-
-function Contact() {
-    // const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    // const [errorMessage, setErrorMessage] = useState('');
-    // const { name, email, message } = formState;
-
-    // function handleSubmit(e) {
-    //     e.preventDefault();
-    //     if (!errorMessage) {
-    //         setFormState({ [e.target.name]: e.target.value });
-    //         console.log('Form', formState);
-    //     }
-    // };
-
-    // function handleChange(e) {
-    //     if(e.target.name === 'email') {
-    //         const isValid = validateEmail(e.target.value);
-    //         console.log(isValid);
-    //         if (!isValid) {
-    //             setErrorMessage('Your email is invalid');
-    //         } else {
-    //             setErrorMessage('');
-    //         }
-    //     } else {
-    //         if (!e.target.value.length) {
-    //             setErrorMessage(`${e.target.name} is required.`);
-    //         } else {
-    //             setErrorMessage('');
-    //         }
-    //     }
-    // };
-
+import React, { Component } from "react";
+export default class Contact extends Component {
+    render() {
+        let resumeData = this.props.resumeData;
     return (
-        <section>
-            <p>Contact me by <a href="mailto:rochalupe@gmail.com">EMAIL</a></p>
-            <p>or visit me on my socials below 👇 </p>
+        <section id="contact">
+            <div className="row section-head">
+                <div className="ten columns">
+                    <p classname="lead">
+                    Feel free to contact me for any work or suggestions below
+                    </p>
+                </div>
+            </div>
+            <div className="row">
+                <aside className="eight columns footer-widgets">
+                    <div className="widget">
+                        <h4>Email: 
+                            
+                            {resumeData.linkedinId}
+                        </h4>
+                    </div>
+                </aside>
+            </div>
         </section>
     );
 }
-
-export default Contact;
+}
