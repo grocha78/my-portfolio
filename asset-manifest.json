@@ -1,22 +1,16 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8b3619c2.css",
-    "main.js": "/my-portfolio/static/js/main.454b9ede.js",
+    "main.css": "/my-portfolio/static/css/main.4152c3d3.css",
+    "main.js": "/my-portfolio/static/js/main.57005539.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/selfie.jpeg": "/my-portfolio/static/media/selfie.553a3348f8f233876b1b.jpeg",
-    "static/media/artgarage.png": "/my-portfolio/static/media/artgarage.bf5b69ebfe2a341cdd4d.png",
-    "static/media/weatherapp.png": "/my-portfolio/static/media/weatherapp.8db4a0f5cb74d3399e0b.png",
-    "static/media/nutritionalyeet.png": "/my-portfolio/static/media/nutritionalyeet.250897589110128c4520.png",
-    "static/media/zestyinvesty.png": "/my-portfolio/static/media/zestyinvesty.33d9fef998db2fbabdf8.png",
-    "static/media/perfectday.png": "/my-portfolio/static/media/perfectday.fa28c2649c06609a4c1e.png",
-    "static/media/techblog.png": "/my-portfolio/static/media/techblog.432f8bc910b284ee56e8.png",
     "index.html": "/my-portfolio/index.html",
-    "main.8b3619c2.css.map": "/my-portfolio/static/css/main.8b3619c2.css.map",
-    "main.454b9ede.js.map": "/my-portfolio/static/js/main.454b9ede.js.map",
+    "main.4152c3d3.css.map": "/my-portfolio/static/css/main.4152c3d3.css.map",
+    "main.57005539.js.map": "/my-portfolio/static/js/main.57005539.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b3619c2.css",
-    "static/js/main.454b9ede.js"
+    "static/css/main.4152c3d3.css",
+    "static/js/main.57005539.js"
   ]
 }
