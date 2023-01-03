@@ -17,8 +17,12 @@ In order to use this application: Type npm start in the terminal and once it con
 https://grocha78.github.io/my-portfolio/
 
 ## Screenshots
-<img width="550" alt="Screen Shot 2022-10-12 at 10 21 51 AM" src="https://user-images.githubusercontent.com/105673691/195383279-cecab523-09e8-4e29-9ee8-607090b985fd.png">
-<img width="550" alt="Screen Shot 2022-10-12 at 10 21 03 AM" src="https://user-images.githubusercontent.com/105673691/195383059-d0fc87ce-f5a0-40fc-82e1-2f3dde9c2423.png">
+<img width="1376" alt="Screenshot 2023-01-03 at 9 50 22 AM" src="https://user-images.githubusercontent.com/105673691/210393072-43c11f4d-d29a-4076-931a-99814061de92.png">
+
+<img width="1354" alt="Screenshot 2023-01-03 at 9 51 03 AM" src="https://user-images.githubusercontent.com/105673691/210393098-4c9b04c2-9bf5-447a-bd8f-105b6545a8e4.png">
+
+<img width="1265" alt="Screenshot 2023-01-03 at 9 52 01 AM" src="https://user-images.githubusercontent.com/105673691/210393129-f6087af2-48fd-4a0c-8e55-387b2c49c8f2.png">
+
 
 ## Tests
 N/A
