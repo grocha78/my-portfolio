@@ -27,10 +27,9 @@ let resumeData = {
     "education":[
       {
         "UniversityName":"University of Houston",
-        "specialization":"B.A. English/Linguistics",
+        "specialization":"B.A. English/Linguistics, Minor: Mandarin Chinese",
         "MonthOfPassing":"May",
         "YearOfPassing":"2009",
-        "Achievements":"Minor: Mandarin Chinese"
       },
       {
         "UniversityName":"Rice University",
