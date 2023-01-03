@@ -236,7 +236,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #2B2B2B;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -249,6 +249,7 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color: #fff;
 }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
@@ -256,6 +257,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color: #fff;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -265,10 +267,11 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
+   color: #7A7A7A;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #7A7A7A;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -290,6 +293,7 @@ ul#nav li.current a { color: #F06000; }
 	float: left;
 	padding: 0;
 	text-align: left;
+   color: #fff;
 }
 .bars .skills {
   	margin-top: 36px;
@@ -299,12 +303,12 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 4px;
   	border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #ffffff;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -320,98 +324,173 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
+  	height: 4px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
+.javascript {
+  	width: 100%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
-.illustrator {
-  	width: 55%;
+.reactjs {
+  	width: 100%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
+.bootstrap {
+  	width: 100%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 100%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 100%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 100%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.responsive {
+   width: 100%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.apis {
+   width: 100%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.node {
+   width: 100%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.express {
+   width: 100%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.mongoose {
+   width: 100%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.sequelize {
+   width: 100%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
+.rest {
+   width: 100%;
+   -moz-animation: jquery 2s ease;
+   -webkit-animation: jquery 2s ease;
+}
 
-@-moz-keyframes photoshop {
+@-moz-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 100%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes reactjs {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 100%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes bootstrap {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
+@-moz-keyframes responsive {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-moz-keyframes apis {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-moz-keyframes node {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-moz-keyframes express {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-moz-keyframes sequelize {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-moz-keyframes mongoose {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-moz-keyframes rest {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 100%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 100%;  }
+}
+@-webkit-keyframes reactjs {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
+@-webkit-keyframes bootstrap {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+@-webkit-keyframes responsive {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-webkit-keyframes apis {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-webkit-keyframes node {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #2B2B2B;
    padding-top: 90px;
    padding-bottom: 60px;
 }
