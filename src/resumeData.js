@@ -2,7 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://github.com/grocha78",
     "name": "Guadalupe Rocha",
     "role": "Full Stack Developer and Data Researcher",
-    "linkedinId":"rochalupe@gmail.com",
+    "linkedinId": "rochalupe@gmail.com",
     "roleDescription": "I like dabbling in various parts of back and front end development as well as learning about new technologies, composing music and playing games in my free time.",
     "socialLinks":[
         {
@@ -114,21 +114,25 @@ let resumeData = {
       {
         "name":"Zesty Investy",
         "description":"Investment calculator that helps plan finances for retirement",
-        "imgurl":"src/assets/zestyinvesty.png"
+        "url":"https://grocha78.github.io/Zesty-Investy-Calculonesty/",
+        "imgurl":"/assets/zestyinvesty.png"
       },
       {
         "name":"Art Garage",
         "description":"The place that brings artists and potential buyers together.",
+        "url":"https://art-garage-app.herokuapp.com/",
         "imgurl":"src/assets/artgarage.png"
       },
       {
         "name":"Tech Blog",
         "description":"A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",  
+        "url":"https://not-another-tech-blog-78.herokuapp.com/",
         "imgurl":"src/assets/techblog.png"
       },
       {
         "name":"Weather App",
         "description":"Weather app that provides current and future weather forecasts in cities.",
+        "url":"https://grocha78.github.io/How-Is-It-Over-There/",
         "imgurl":"src/assets/weatherapp.png"
       }
     ],
