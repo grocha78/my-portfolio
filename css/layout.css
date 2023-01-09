@@ -187,7 +187,7 @@ ul#nav li.current a { color: #00f0bc; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #191919;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -236,7 +236,7 @@ ul#nav li.current a { color: #00f0bc; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #2B2B2B;
+   background: #191919;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -490,7 +490,7 @@ ul#nav li.current a { color: #00f0bc; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #2B2B2B;
+   background: #191919;
    padding-top: 90px;
    padding-bottom: 60px;
 }
