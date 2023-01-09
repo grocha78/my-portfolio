@@ -13,7 +13,6 @@ export default class Project extends Component {
                 return(
                   <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    
                       <img src={`${item.imgurl}`} alt="" className="item-imgurl"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -21,8 +20,7 @@ export default class Project extends Component {
                           <p>{item.description}</p>
                           <h6>{item.url}</h6>
                         </div>
-                      </div>
-                    
+                      </div>                   
                   </div>
                 </div>
               )
