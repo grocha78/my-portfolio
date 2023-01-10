@@ -16,9 +16,9 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"soundcloud",
-          "url":"https://soundcloud.com/epulroch",
-          "className":"fa fa-soundcloud"
+          "name":"youtube",
+          "url":"https://www.youtube.com/@Epulroch/featured",
+          "className":"fa fa-youtube"
         }
       ],
     "aboutme":"My name is Guadalupe Rocha and I am based out of Houston, TX. I grew up in south Texas, by the border, and moved to Houston to attend college. I have a B.A. in English/Linguistics from the University of Houston and recently earned a certificate in full stack development from the Rice University Coding Bootcamp, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. I’m known as an innovative problem solver that is passionate about developing apps, with a focus on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user experience. I worked on a team of 3 to develop a single-page MERN app that helps individuals track their food intake and health options on a daily basis. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web. Strengths include creativity, teamwork, and building projects from ideation to execution. I am also an experienced Data Collector with a demonstrated history of working in the hospital & health care industry. Skilled in Market Research, Management, Fundraising, Software Documentation, and Healthcare. Strong research professional with a B.A. focused in English / Linguistics from University of Houston.",
