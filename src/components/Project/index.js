@@ -18,7 +18,7 @@ export default class Project extends Component {
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
-                          <h6>{item.url}</h6>
+                          <a href={item.url}>{item.url}</a>
                         </div>
                       </div>                   
                   </div>

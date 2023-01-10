@@ -579,8 +579,8 @@ ul#nav li.current a { color: #00f0bc; }
    color: #c6c7c7;
    margin-bottom: 0;
 }
-.portfolio-item .portfolio-item-meta h6 {
-   font: 12px 'opensans-bold', sans-serif;
+.portfolio-item .portfolio-item-meta a {
+   font: 14px 'opensans-bold', sans-serif;
    color: #fff;
 }
 /* on hover */
