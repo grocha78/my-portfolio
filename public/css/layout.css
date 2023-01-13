@@ -523,8 +523,8 @@ ul#nav li.current a { color: #00f0bc; }
    cursor: pointer;
 }
 
-/* overlay */
-/* .portfolio-item .item-wrap .overlay {
+overlay
+.portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -541,7 +541,7 @@ ul#nav li.current a { color: #00f0bc; }
 	transition: opacity 0.3s ease-in-out;
 
    background: url(../images/overlay-bg.png) repeat;
-} */
+}
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
@@ -569,7 +569,7 @@ ul#nav li.current a { color: #00f0bc; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { padding: 16px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 18px 'opensans-bold', sans-serif;
    color: #fff;

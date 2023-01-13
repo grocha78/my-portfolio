@@ -115,26 +115,26 @@ let resumeData = {
         "name":"Zesty Investy",
         "description":"Investment calculator that helps plan finances for retirement",
         "url":"https://grocha78.github.io/Zesty-Investy-Calculonesty/",
-        "imgurl":"/assets/zestyinvesty.png"
+        "imgurl":"../assets/zestyinvesty.png"
       },
       {
         "name":"Art Garage",
         "description":"The place that brings artists and potential buyers together.",
         "url":"https://art-garage-app.herokuapp.com/",
-        "imgurl":"src/assets/artgarage.png"
-      },
-      {
-        "name":"Tech Blog",
-        "description":"A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",  
-        "url":"https://not-another-tech-blog-78.herokuapp.com/",
-        "imgurl":"src/assets/techblog.png"
+        "imgurl":"../assets/artgarage.png"
       },
       {
         "name":"Weather App",
         "description":"Weather app that provides current and future weather forecasts in cities.",
         "url":"https://grocha78.github.io/How-Is-It-Over-There/",
-        "imgurl":"src/assets/weatherapp.png"
+        "imgurl":"../assets/weatherapp.png"
       }
+      // {
+      //   "name":"Tech Blog",
+      //   "description":"A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",  
+      //   "url":"https://not-another-tech-blog-78.herokuapp.com/",
+      //   "imgurl":"src/assets/techblog.png"
+      // },
     ],
     "testimonials":[
       {
